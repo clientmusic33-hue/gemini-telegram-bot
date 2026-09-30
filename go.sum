@@ -2,8 +2,6 @@ github.com/google/generative-ai-go v0.9.0 h1:r+v0jhTxrGkDNV/MvI/G8gPnzNhp1XAH7N1
 github.com/google/generative-ai-go v0.9.0/go.mod h1:nT8kT1Nq3F2+aNvWRJeVBDv2k3tXlcMvGqmHMq4RiU=
 github.com/google/ai v0.3.2 h1:rYoKCQe+JJZ3m3VYGrRmKTyKLHx7KGz0WwzaJJUkEE=
 github.com/google/ai v0.3.2/go.mod h1:F8dJJRUvGUx9JN2RNgUqALQW1sKvjfyDPrxqBaKQwY=
-github.com/google/generative-ai-go/v0 v0.9.0 h1:9l1g5C4KL9jrqkVZYmzYH0nKJ/YeYL31DI0DlBLXNE=
-github.com/google/generative-ai-go/v0 v0.9.0/go.mod h1:C5YLHPJ3CxKF2UYJ8C5yZE8FdxhYxfEMwPNKu5GCXA=
 github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1 h1:wTLtDMH40pZyR/0sHn8JLFoLdkd8hxjYtEKbQqjs+A=
 github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1/go.mod h1:A2S0mkLg7BjqFIbpSYKNuFvRAZP/HyLnqLJR5bCp/M=
 github.com/joho/godotenv v1.5.1 h1:7P4SfwW+oDPH++I9Q2O88j3IuRXf7zLUUJ15IqE2EY=
@@ -24,5 +22,5 @@ google.golang.org/genproto/googleapis/rpc v0.0.0-20231211222908-948df8a8d5f2 h1:
 google.golang.org/genproto/googleapis/rpc v0.0.0-20231211222908-948df8a8d5f2/go.mod h1:nVkdHTYnPRwJWlBtLMJd5e0Fa/KGRfIRtmKL/ELk2Q=
 google.golang.org/grpc v1.60.0 h1:6FQAR0kM+m+z+qvp5LsmhH6FSLd9Jq6L8VfF60JO24=
 google.golang.org/grpc v1.60.0/go.mod h1:OlCHIieHFgnkGw4ievCDUC9qO11na9ZZl1Z+ERafuA=
-google.golang.org/protobuf v1.32.0 h1:pPC6BG5ex8PDFvVMyL7be7Gs+4Qe5THw/V9rwGN-QY=
+google.golang.org/protobuf v1.32.0 h1:c6P6GXX6sHbq/GpV6MGZEdwhWPcYBgnhAHhKbcUYpos=
 google.golang.org/protobuf v1.32.0/go.mod h1:c3/cjOl22Z5VCSIR21Vertc2DBIdyLwIvpHssksI24=
