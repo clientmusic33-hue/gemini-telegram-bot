@@ -1,0 +1,63 @@
+telegram:
+  polling_timeout_seconds: 30
+  read_timeout_seconds: 10
+  max_polling_workers: 1
+
+bot:
+  name: "Gemini Telegram Bot"
+  description: "AI-powered Telegram bot using Google Gemini"
+  version: "1.0.0"
+
+gemini:
+  timeout_seconds: 30
+  max_retries: 3
+  retry_backoff_base: 2
+  retry_backoff_max_seconds: 32
+
+conversation:
+  enabled: true
+  max_messages: 20
+  cleanup_interval_minutes: 60
+  ttl_minutes: 1440  # 24 hours
+
+limits:
+  enabled: true
+  daily_messages: 50
+  max_input_characters: 12000
+  rate_limit_window_minutes: 1
+  messages_per_window: 10
+
+users:
+  admin_ids: []
+  allowed_user_ids: []
+  blocked_user_ids: []
+  track_usage: true
+  max_idle_hours: 24
+
+logging:
+  level: info
+  format: json
+  file: ""
+  max_size_mb: 100
+  max_backups: 3
+
+server:
+  host: 0.0.0.0
+  port: 8080
+  read_timeout_seconds: 15
+  write_timeout_seconds: 15
+  shutdown_timeout_seconds: 30
+  health_path: /health
+  readiness_path: /ready
+
+storage:
+  type: memory  # memory or sqlite
+  sqlite_path: ./data/bot.db
+  cleanup_interval_minutes: 60
+
+features:
+  typing_indicator: true
+  conversation_memory: true
+  usage_tracking: true
+  admin_stats: true
+  markdown_formatting: true
