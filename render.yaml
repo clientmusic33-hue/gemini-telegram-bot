@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: gemini-telegram-bot
+    runtime: go
+    buildCommand: go build -o bot ./cmd/bot
+    startCommand: ./bot
+    numInstances: 1
+    plan: standard
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.0-flash
+      - key: ADMIN_IDS
+        value: ""
+      - key: ALLOWED_USER_IDS
+        value: ""
+      - key: BLOCKED_USER_IDS
+        value: ""
+      - key: DAILY_MESSAGE_LIMIT
+        value: "50"
+      - key: MAX_INPUT_CHARACTERS
+        value: "12000"
+      - key: MAX_CONVERSATION_MESSAGES
+        value: "20"
+      - key: LOG_LEVEL
+        value: info
+      - key: REQUEST_TIMEOUT
+        value: "30"
+      - key: POLLING_TIMEOUT
+        value: "30"
+      - key: STORAGE_TYPE
+        value: memory
