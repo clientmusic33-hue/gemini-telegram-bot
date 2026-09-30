@@ -6,7 +6,7 @@ github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1 h1:wTLtDMH40pZyR/0sHn8
 github.com/joho/godotenv v1.5.1 h1:7P4SfwW+oDPH++I9Q2O88j3IuRXf7zLUUJ15IqE2EY=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DxwEIRh8E=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHEvluCIK8jp4FJQsS0V10YYu9yWFk=
-gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgE=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 golang.org/x/time v0.5.0 h1:o7cqLznguB2Gardner8CjMQvDiQzSqxRvPqxIz2xvuqg=
 golang.org/x/time v0.5.0/go.mod h1:P1wyf2V4Uffo4ztqiFN7V0fYSVqBjMYP5un5gx+opk=
 golang.org/x/net v0.19.0 h1:zTwKpTd2XuCqf8huc7Fo2iSy+4RHPd10s8KWMVmW04=
