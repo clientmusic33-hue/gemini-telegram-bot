@@ -1,0 +1,8 @@
+# This is a Go project - no Python dependencies needed
+# Python requirements listed for reference only
+
+# If you want to add Python support in the future:
+# python-telegram-bot==20.7
+# google-generativeai==0.3.0
+# pyyaml==6.0
+# python-dotenv==1.0.0
