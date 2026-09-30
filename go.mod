@@ -12,7 +12,6 @@ require (
 
 require (
 	github.com/google/ai v0.3.2 // indirect
-	github.com/google/generative-ai-go/v0 v0.9.0 // indirect
 	golang.org/x/net v0.19.0 // indirect
 	google.golang.org/api v0.151.0 // indirect
 	google.golang.org/genproto v0.0.0-20231211222908-948df8a8d5f2 // indirect
